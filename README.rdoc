@@ -1,6 +1,10 @@
 = sony_remote
 
-Description goes here.
+A (currently) very simple library for control of some Sony entertainment devices that listen for control requests over HTTP.
+
+What's in the gem so far is what I've found to work with my particular Sony Bravia TV, based on the network traffic I captured between it and the official Sony Media Remote app for Android.
+I'd like to extend this to be useful with a wide range of devices, but I've yet to find any official documentation or additional devices to test against.
+As this is essentially a reverse-engineering effort, and I've only had the ability to test on a single device, let's call this extreme Alpha for now. :)
 
 == Contributing to sony_remote
  
