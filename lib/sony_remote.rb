@@ -62,7 +62,7 @@ class SonyRemote
   end
 
   def system_info
-    s.get('/cers/api/getSystemInformation')
+    get('/cers/api/getSystemInformation')
   end
 
   def system_name
